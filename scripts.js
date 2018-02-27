@@ -1,3 +1,8 @@
+var visibleText= "Show Less";
+var hiddenText= "Show More";
+
+
+
 $(document).ready(function(){
     
    $(".info-box button").click(function(){
@@ -10,9 +15,10 @@ $(document).ready(function(){
        }
        
        
-      $(this).next().toggleClass("visible");
+      $(this).next().toggleClass(visibleText);
    });
 });
+
 
 
 
