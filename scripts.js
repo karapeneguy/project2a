@@ -1,4 +1,18 @@
 $(document).ready(function(){
     
-   alert("Jquery ready!");
+   $(".info-box button").click(function(){
+       $(this).toggleClass("visible");
+       
+       if($(this).hasClass("visible") ){
+           $(this).html("Show Less");
+       }else{
+           $(this).html("Show More");
+       }
+       
+       
+      $(this).next().toggleClass("visible");
+   });
 });
+
+
+
