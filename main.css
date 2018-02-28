@@ -1,6 +1,7 @@
 h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 60px; }
+  font-size: 60px;
+  text-align: center; }
 
 p {
   font-family: 'Open Sans', sans-serif; }
@@ -17,18 +18,35 @@ p {
 .fa:hover {
   opacity: 0.7; }
 
-ul {
+.menu {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
-  margin: 0;
-  padding: 0; }
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 0;
+  width: 40%;
+  padding: 20px; }
+  .menu li {
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .menu li a {
+    color: black;
+    text-decoration: none; }
 
-li {
-  display: inline; }
+#social-icons {
+  margin-left: 310px; }
 
-.info-box p {
-  display: none; }
-.info-box p.visible {
-  display: block; }
+#mainimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%; }
+
+#traits {
+  width: 70%;
+  text-align: center;
+  font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */
