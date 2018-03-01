@@ -6,7 +6,9 @@ $grey-blue: rgb(130,141,149);
 $tanwhite: rgb(244,243,237);
 
 
-
+body{
+    margin: 0;
+}
 
 
 
@@ -92,12 +94,19 @@ p{
 
 #traits{
     width: 70%;
-    text-align: center;
+    text-decoration-color: white;
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+
 }
 
 
-
+.blackbox{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
 
 
 
