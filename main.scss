@@ -202,14 +202,14 @@ nav{
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
-    font:14px    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;   
       width: 50%;
     margin-bottom: 50px;
+    color: black;
 }
 
-label{
-   font-family: 'Open Sans', sans-serif;
-}
+
 
 #aboutmeimg{
     width: 30%;
@@ -242,3 +242,5 @@ margin-top: 160px;
     margin-top: 60px;
     text-align: center;
 }
+
+
