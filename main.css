@@ -13,6 +13,15 @@ h2 {
   font-size: 20px;
   text-align: center; }
 
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-left: 10%;
+  width: 40%; }
+
 p {
   font-family: 'Open Sans', sans-serif; }
 
@@ -58,14 +67,14 @@ nav {
   margin-right: auto;
   width: 80%; }
 
-#traits {
-  width: 100%;
+#trait {
+  width: 40%;
+  margin-left: 10%;
   text-decoration-color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  background-color: black;
-  color: white;
-  height: 500px; }
+  height: 3px;
+  text-align: center; }
 
 .blackboxfooter {
   background-color: black;
@@ -100,5 +109,18 @@ nav {
 .contactmanagement {
   margin: o auto;
   text-align: center; }
+
+#mc_embed_signup {
+  width: 40%; }
+
+label {
+  font-family: 'Open Sans', sans-serif; }
+
+#aboutmeimg {
+  width: 20%;
+  float: right; }
+
+#aboutmetext {
+  font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

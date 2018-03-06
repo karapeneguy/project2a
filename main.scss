@@ -33,6 +33,21 @@ font-family: 'Permanent Marker', cursive;
     
 }
 
+h3{font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  text-align: center;
+    margin-left: 10%;
+    width: 40%;
+    
+}
+
+#aboutme{
+
+   
+}
+
 p{
    font-family: 'Open Sans', sans-serif;
 
@@ -115,14 +130,14 @@ nav{
 
 
 
-#traits{
-    width: 100%;
+#trait{
+    width: 40%;
+    margin-left: 10%;
     text-decoration-color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    background-color: black;
-    color: white;
-    height: 500px;
+    height: 3px;
+    text-align: center;
 }
 
 
@@ -176,4 +191,23 @@ nav{
 .contactmanagement{
     margin: o auto;
     text-align: center;
+}
+
+#mc_embed_signup{
+    width: 40%;
+    
+}
+
+label{
+   font-family: 'Open Sans', sans-serif;
+}
+
+#aboutmeimg{
+    width: 20%;
+    float: right;
+    
+}
+
+#aboutmetext{
+    font-size: 20px;
 }
