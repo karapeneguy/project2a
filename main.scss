@@ -4,50 +4,46 @@ $grey: rgb(104,96,90);
 $lightgrey: rgb(197,185,179);
 $grey-blue: rgb(130,141,149);
 $tanwhite: rgb(244,243,237);
+$main-font: 'Permanent Marker', cursive;
+$paragraph-font: 'Open Sans', sans-serif;
+
 
 
 body{
-    margin: 0;
-  
+    margin: 0px;
 }
 
 
 
 h1{
-font-family: 'Permanent Marker', cursive;
+font-family: $main-font;
     font-size: 60px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
-    
-  
-
 }
 
 
 
 h2{
-font-family: 'Permanent Marker', cursive;
+font-family: $main-font;
     font-size: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
-h3{font-family: 'Permanent Marker', cursive;
+h3{font-family: $main-font;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 0px;
   text-align: center;
     margin-left: 10%;
-    width: 40%;
-    
+    width: 40%; 
 }
 
 
 
 p{
-   font-family: 'Open Sans', sans-serif;
-
+   font-family: $paragraph-font;
 }
 
 
@@ -57,10 +53,7 @@ p{
     margin: 0 auto;
     text-align: center;
     margin-bottom: 40px;
-    padding: 0;
-
- 
-    
+    padding: 0;  
 }
 
 
@@ -70,8 +63,6 @@ p{
     text-decoration: none;
     background: white;
     color: black;
-   
-    
 }
 
 .fa:hover {
@@ -81,9 +72,12 @@ p{
 
 nav{
     text-align: center;
+        text-decoration: none;
+
 }
+
 .menu{
-       font-family: 'Open Sans', sans-serif;
+       font-family: $paragraph-font;
     list-style-type: none;
     //margin-left: 300px;
     margin: 0 auto;
@@ -92,25 +86,27 @@ nav{
     //width: 40%;
     padding: 0px;
     margin-bottom: 15px;
-    
+}
+
     li{
-        font-family: 'Open Sans', sans-serif;
+        font-family: $paragraph-font;
         display: inline;
         padding-left: 10px;
         padding-right: 10px;
-    }
+        text-decoration: none;
     
-    li a{
-         
+    li a{ 
     color: black;
-    text-decoration: none;
-        
+     text-decoration: none;        
     }
-    
-    
-    
 }
 
+a{text-decoration: none;
+color: black;}
+
+a:active { 
+    color: $grey-blue;
+}
 
 
 #mainimage{
@@ -119,7 +115,6 @@ nav{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-
 }
 
 
@@ -143,10 +138,8 @@ nav{
     background-color: black;
     width: 100%;
     color: white;
+    margin-bottom: 0px;
 }
-
-
-
 
 
 
@@ -155,9 +148,9 @@ nav{
     margin-right: 10%;
     border: solid 4px black;
     height: 400px;
- 
     float: right;
 }
+
 .bit-widget{
     width: 100% !important;
 }
@@ -174,22 +167,6 @@ nav{
 }
 
 
-.sideways{
-    transform: rotate(-90deg);
-    font-size: 40px;
-    margin-left: -1000px;
-    margin-top: 100px;
-	
-}
-
-.sideways2{
-    transform: rotate(-90deg);
-    font-size: 40px;
-    margin-left: -1000px;
-    margin-top: 200px;
-    margin-bottom: 5px;
-	
-}
 
 
 .contactmanagement{
@@ -202,7 +179,7 @@ nav{
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
-    font-family: 'Open Sans', sans-serif;
+    font-family: $paragraph-font;
     font-size:14px;   
       width: 50%;
     margin-bottom: 50px;
@@ -212,14 +189,15 @@ nav{
 
 
 #aboutmeimg{
-    width: 30%;
+    width: 35%;
     float: right;
     margin-top: 60px;
     margin-right: 10%;
-  
+}
+
+#aboutmeimg:hover{
     
- 
-   
+width: 50%;
     
 }
 
@@ -232,7 +210,6 @@ nav{
 margin-top: 160px;
     clear: none;
     margin-bottom: 200px;
-   
 }
 
 #signuptext{
@@ -243,4 +220,31 @@ margin-top: 160px;
     text-align: center;
 }
 
+
+
+
+
+
+
+.morebio {
+    
+    button {
+         margin-left: 25%;
+       font-family: $main-font;
+    font-size: 15px;
+   color: white;
+    background-color: black;
+
+    }
+ 
+    p {
+        display: none;
+        font-family: $paragraph-font;
+    }
+    p.visible {
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+    }
+}
 
